@@ -1,0 +1,82 @@
+body{
+	background-color: grey;
+	margin: 0;
+	padding: 0;
+	font-family: Arial,New Times Roman;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.show{
+	min-height: 400px;
+	text-align: center;
+	background: url("../img/44.jpeg");
+	background-size: cover;
+}
+.header{
+	min-height: 80px;
+	background-color: white;
+	color: tomato;
+	padding-top: 30px;
+	border-bottom: 5px dodgerblue solid;
+
+
+
+}
+.nav a{
+	color: tomato;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.nav li{
+	list-style: none;
+	float:to left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+.branding{
+	float: left;
+}
+.nav{
+	float: right;
+	margin top: 10px: 
+}
+
+.nav a:hover{
+	color:mediumseagreen;
+	font-weight: bold;
+}
+
+.boxes{
+	margin-top: 20px;
+	display: block;
+	
+
+}
+.box{
+	float: left;
+	text-align: center;
+	padding: 10px;
+	width: 30%;
+	border: 2px cyan solid;
+
+}
+.box img{
+	width: 90px;
+}
+.footer{
+	padding: 20px;
+	background-color: cyan;
+	display: block;
+	clear: both;
+	text-align: center;
+	color: black;
+}
+
+
+
+
